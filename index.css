@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    margin: 150px auto;
+}
+.clock{
+    height: auto;
+    width: 300px;
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+.inner{
+border: 1px solid rgb(111, 109, 109);
+padding: 5px;
+border-radius: 5px;
+}
+.outer{
+    border: 2px solid rgb(181, 172, 172);
+    padding: 10px;
+    border-radius: 5px;
+}
+.datelabels{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+.date-time{
+    border: 1px solid rgb(111, 109, 109);
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-size: 3rem;
+    color: red;
+    letter-spacing: 5px;
+    border-radius: 3px;
+    margin: 0px 8px;
+}
+.timelabels{
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.8rem;
+    align-items: center;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.time{
+    border: 1px solid rgb(111, 109, 109);
+    padding: 0 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3rem;
+    color: red;
+    letter-spacing: 5px;
+    border-radius: 3px;
+    margin: 0px 8px;
+}
+.day{
+    display: flex;
+    margin-top: 10px;
+    font-size: 2rem;
+    color: red;
+    justify-content: center;
+}
